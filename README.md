@@ -45,31 +45,23 @@ An interactive Power BI dashboard that analyzes employee attrition and workforce
 hr-analytics-dashboard/
 ├── README.md
 ├── dashboard.png
-├── HR_Dashboard.pbix
 ├── HR_Dashboard.pbit
-├── data/
-│   └── company-data.xlsx
-└── images/
-    └── KPI card icons
+└── Data/
 ```
 
-- `HR_Dashboard.pbix`: Power BI report file
 - `HR_Dashboard.pbit`: Power BI template (no data; connect your own)
 - `dashboard.png`: dashboard screenshot
-- `data/`: dataset used in the report
-- `images/`: icons used in the KPI cards
+- `Data/`: dataset used in the report
 
 ## How to Use
 
-1. Download `HR_Dashboard.pbix` and open it in Power BI Desktop.
-2. To use your own data, open `HR_Dashboard.pbit`, enter your data source details when prompted, and click Load.
+1. Open `HR_Dashboard.pbit` in Power BI Desktop.
+2. Enter your data source details when prompted and click Load.
 3. Use the slicers on the left to filter by gender, marital status, education and business travel.
 
 ## Dataset
 
-The dataset is a sample HR dataset with employee attributes such as age, gender, education, job role, department, business travel, monthly income, job satisfaction and attrition status.
-
-Source: add your dataset link here (for example, the Kaggle link).
+The dataset is a sample HR dataset containing employee attributes such as age, gender, education, job role, department, business travel, monthly income, job satisfaction and attrition status. The file is included in the `Data/` folder.
 
 ## Author
 
